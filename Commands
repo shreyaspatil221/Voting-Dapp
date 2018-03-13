@@ -9,3 +9,5 @@ byteCode = compiledCode.contracts[':Voting'].bytecode
 deployedContract = VotingContract.new(['Sachit','Deepanshu','Mansi','Nishkarsh','Akshay','Mandar','Shreyas'],{data: byteCode, from: web3.eth.accounts[0], gas: 4700000})
 deployedContract.address
 contractInstance = VotingContract.at(deployedContract.address)
+
+Contrructor argument = ["Sachit","Deepanshu","Mansi","Nishkarsh","Akshay","Mandar","Shreyas"]
